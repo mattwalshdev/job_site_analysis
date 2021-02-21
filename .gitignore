@@ -1,0 +1,19 @@
+# general things to ignore
+build/
+dist/
+*.egg-info/
+*.egg
+*.py[cod]
+__pycache__/
+*.so
+*~
+.env
+venv/
+.vscode
+
+# testing files
+.tox
+.cache
+
+# storing data in text format for initial build
+tempdb/
