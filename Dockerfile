@@ -15,6 +15,7 @@ ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
 RUN pip install --upgrade pip
 RUN pip install --upgrade setuptools
+RUN pip install wheel
 
 COPY requirements.txt .
 COPY requirements.dev.txt .
