@@ -1,0 +1,7 @@
+README file
+move from txt files to document db
+refactor and split
+set up service worker - celery?
+build admin frontend for editing new words
+build API to connect to db
+show graphical charts on a website
